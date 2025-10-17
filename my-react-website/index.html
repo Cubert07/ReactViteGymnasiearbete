@@ -5,6 +5,17 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my-react-website</title>
+    <!-- Tailwind CSS CDN (ensure this is in the root index.html Vite serves) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Optional: custom Tailwind config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
