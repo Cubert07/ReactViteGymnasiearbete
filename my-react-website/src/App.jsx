@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <div>
-      <h1>Hello, this is my React website!</h1>
-    </div>
-  );
-}
+import { Routes, Route, Link } from 'react-router-dom'
+import Home from './pages/Home'
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
+  )
+}
